@@ -8,7 +8,7 @@
  * this project also realess in GitHub:
  * https://github.com/HelTecAutomation/ASR650x-Arduino
  * */
-
+ 
 #include "LoRaWan_APP.h"
 #include "Arduino.h"
 
@@ -16,6 +16,7 @@
 #include "GPS_Air530Z.h"
 #include <ArduinoJson.h>
 
+const int GREEN = 20480;
 
 //if GPS module is Air530, use this
 //Air530Class GPS;
@@ -122,7 +123,7 @@ void loop()
 	
 	//DoubleToString(txpacket,txNumber,3);	   //add to the end of package
 	
-	turnOnRGB(COLOR_SEND,0); //change rgb color
+	//turnOnRGB(COLOR_SEND,0); //change rgb color
 
 	Serial.printf("\r\nsending packet \"%s\" , length %d\r\n",txpacket, strlen(txpacket));
 
@@ -202,15 +203,22 @@ void loop()
   // {"sensor":"gps","time":1351824120,"data":[48.756080,2.302038]}*/
 
   // Start a new line
-  Serial.println();
+  // turnOnRGB(COLOR_SEND,0); //change rgb color
 
+  Serial.println(COLOR_SEND);
 
-  //if(GPS.satellites.value() > 0){
-    Radio.Send( (uint8_t*)serialized.c_str(), serialized.length() ); //send the package out 
-  //}
+  if (GPS.satellites.value() > 0) {
+          turnOnRGB(GREEN,0); //change rgb color
+          Radio.Send( (uint8_t*)serialized.c_str(), serialized.length() ); //send the package out 
+  } else {
+           turnOnRGB(COLOR_SEND,0); //change rgb color
+
+  }
+
 
   delay(500);
-  turnOffRGB();
+    turnOnRGB(0,0); //change rgb color
+
 }
 
 /**
