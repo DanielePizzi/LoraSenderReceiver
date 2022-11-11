@@ -1,3 +1,5 @@
+#include <ArduinoJson.h>
+
 // Libraries for LoRa
 #include <SPI.h>
 #include <LoRa.h>
@@ -28,6 +30,17 @@
 #define OLED_RST 16
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
+
+
+#include <WiFi.h>
+#include <HTTPClient.h>
+
+const char* ssid = "SaraScroccona";
+const char* password = "xaoi8257";
+
+//Your Domain name with URL path or IP address with path
+String serverName = "http://192.168.167.26:1880/postData"; 
+
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RST);
 
@@ -76,6 +89,45 @@ void onReceive(int packetSize)
 
   display.print(s);
   display.display();
+
+  if(WiFi.status()== WL_CONNECTED){
+      HTTPClient http;
+
+      String serverPath = serverName + "?temperature=24.37";
+      
+      // Your Domain name with URL path or IP address with path
+      http.begin(serverName.c_str());
+      
+      // If you need Node-RED/server authentication, insert user and password below
+      //http.setAuthorization("REPLACE_WITH_SERVER_USERNAME", "REPLACE_WITH_SERVER_PASSWORD");
+      
+      // Send HTTP GET request
+      // Specify content-type header
+      http.addHeader("Content-Type", "application/x-www-form-urlencoded");
+      
+      // Data to send with HTTP POST
+      String httpRequestData = "api_key=tPmAT5Ab3j7F9&sensor=BME280&value1=24.25&value2=49.54&value3=1005.14";
+      
+      // Send HTTP POST request
+      int httpResponseCode = http.POST(loRaData);  
+          
+      if (httpResponseCode>0) {
+        Serial.print("HTTP Response code: ");
+        Serial.println(httpResponseCode);
+        String payload = http.getString();
+        Serial.println(payload);
+      }
+      else {
+        Serial.print("Error code: ");
+        Serial.println(httpResponseCode);
+      }
+      // Free resources
+      http.end();
+    }
+    else {
+      Serial.println("WiFi Disconnected");
+    }
+  
 }
 
 void setup()
@@ -83,8 +135,19 @@ void setup()
   // initialize Serial Monitor
   Serial.begin(115200);
   // Serial.begin(9600);
-  while (!Serial)
-    ;
+  while (!Serial);
+
+  //SETUP WIFI START
+  WiFi.begin(ssid, password);
+  Serial.println("Connecting");
+  while(WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.print("Connected to WiFi network with IP Address: ");
+  Serial.println(WiFi.localIP());
+  //SETUP WIFI END
 
   // reset OLED display via software
   pinMode(OLED_RST, OUTPUT);

@@ -1,3 +1,4 @@
+
 /* Heltec Automation send communication test example
  *
  * Function:
@@ -13,6 +14,8 @@
 
 #include "GPS_Air530.h"
 #include "GPS_Air530Z.h"
+#include <ArduinoJson.h>
+
 
 //if GPS module is Air530, use this
 //Air530Class GPS;
@@ -29,7 +32,7 @@ Air530ZClass GPS;
 #define LoraWan_RGB 0
 #endif
 
-#define RF_FREQUENCY                                915000000 // Hz
+#define RF_FREQUENCY                                866000000 // Hz
 
 #define TX_OUTPUT_POWER                             14        // dBm
 
@@ -51,12 +54,13 @@ Air530ZClass GPS;
 #define RX_TIMEOUT_VALUE                            1000
 #define BUFFER_SIZE                                 30 // Define the payload size here
 
-char txpacket[BUFFER_SIZE];
+char* txpacket;
 char rxpacket[BUFFER_SIZE];
 
 static RadioEvents_t RadioEvents;
 
 double txNumber;
+String groupID = "12345";
 
 int16_t rssi,rxSize;
 void  DoubleToString( char *str, double double_num,unsigned int len);
@@ -114,10 +118,9 @@ void loop()
 
   
 	txNumber += 0.01;
-	sprintf(txpacket,"%s","Hello world number");  //start a package
 //	sprintf(txpacket+strlen(txpacket),"%d",txNumber); //add to the end of package
 	
-	DoubleToString(txpacket,txNumber,3);	   //add to the end of package
+	//DoubleToString(txpacket,txNumber,3);	   //add to the end of package
 	
 	turnOnRGB(COLOR_SEND,0); //change rgb color
 
@@ -163,8 +166,51 @@ void loop()
   Serial.print(", SPEED: ");
   Serial.println(GPS.speed.kmph());
   Serial.println();
+  
+  //invio segnale solamente se ha catturato satelliti
+   // Allocate the JSON document
+  //
+  // Inside the brackets, 200 is the RAM allocated to this document.
+  // Don't forget to change this value to match your requirement.
+  // Use arduinojson.org/v6/assistant to compute the capacity.
+  StaticJsonDocument<200> doc;
 
-	Radio.Send( (uint8_t *)txpacket, strlen(txpacket) ); //send the package out	
+  // StaticJsonObject allocates memory on the stack, it can be
+  // replaced by DynamicJsonDocument which allocates in the heap.
+  //
+  // DynamicJsonDocument  doc(200);
+
+  // Add values in the document
+  //
+  doc["helpRequest"] = 0;
+  doc["groupID"] = groupID;
+  doc["timestamp"] = String(GPS.time.hour()) +":" + String(GPS.time.minute()) +":" + String(GPS.time.second());
+  doc["lat"] = GPS.location.lat();
+  doc["long"] = GPS.location.lng();
+  doc["satellites"] = GPS.satellites.value();
+  doc["meters"] = GPS.altitude.meters();
+  doc["hdop"] = GPS.hdop.hdop();
+
+  // Generate the minified JSON and send it to the Serial port.
+  //
+
+  String serialized;
+  
+  serializeJson(doc, serialized);
+  /*char str[serialized.length() + 1] = {};
+  strcpy(str, serialized.c_str());  // The above line prints:
+  // {"sensor":"gps","time":1351824120,"data":[48.756080,2.302038]}*/
+
+  // Start a new line
+  Serial.println();
+
+
+  //if(GPS.satellites.value() > 0){
+    Radio.Send( (uint8_t*)serialized.c_str(), serialized.length() ); //send the package out 
+  //}
+
+  delay(500);
+  turnOffRGB();
 }
 
 /**
