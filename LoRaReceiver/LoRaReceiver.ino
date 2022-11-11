@@ -69,6 +69,8 @@ void onReceive(int packetSize)
   }
 
   int rssi = LoRa.packetRssi();
+  float snr = LoRa.packetSnr();
+  float pfe = LoRa.packetFrequencyError();
 
   // Dsiplay information
   display.setCursor(0, 30);
@@ -93,17 +95,16 @@ void onReceive(int packetSize)
   if(WiFi.status()== WL_CONNECTED){
       HTTPClient http;
 
-      String serverPath = serverName + "?temperature=24.37";
-      
+      String stringPath = serverName + "?rssi="+rssi+ "&snr="+snr+"&pfe="+pfe;
       // Your Domain name with URL path or IP address with path
-      http.begin(serverName.c_str());
+      http.begin(stringPath.c_str());
       
       // If you need Node-RED/server authentication, insert user and password below
       //http.setAuthorization("REPLACE_WITH_SERVER_USERNAME", "REPLACE_WITH_SERVER_PASSWORD");
-      
+
       // Send HTTP GET request
       // Specify content-type header
-      http.addHeader("Content-Type", "application/x-www-form-urlencoded");
+      http.addHeader("Content-Type", "application/json");
       
       // Data to send with HTTP POST
       String httpRequestData = "api_key=tPmAT5Ab3j7F9&sensor=BME280&value1=24.25&value2=49.54&value3=1005.14";
