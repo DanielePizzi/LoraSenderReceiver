@@ -61,6 +61,7 @@ char rxpacket[BUFFER_SIZE];
 static RadioEvents_t RadioEvents;
 
 double txNumber;
+double counter = 0;
 String groupID = "12345";
 
 int16_t rssi,rxSize;
@@ -185,12 +186,13 @@ void loop()
   //
   doc["helpRequest"] = 0;
   doc["groupID"] = groupID;
-  doc["timestamp"] = String(GPS.time.hour()) +":" + String(GPS.time.minute()) +":" + String(GPS.time.second());
+  doc["timestamp"] = String(GPS.time.hour()) +":" + String(GPS.time.minute()) +":" + String(GPS.time.second()); 
   doc["lat"] = GPS.location.lat();
   doc["long"] = GPS.location.lng();
   doc["satellites"] = GPS.satellites.value();
   doc["meters"] = GPS.altitude.meters();
   doc["hdop"] = GPS.hdop.hdop();
+  doc["packetCount"] = ++counter;
 
   // Generate the minified JSON and send it to the Serial port.
   //
