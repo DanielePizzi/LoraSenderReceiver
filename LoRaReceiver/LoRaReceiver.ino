@@ -39,7 +39,7 @@ const char* ssid = "SaraScroccona";
 const char* password = "xaoi8257";
 
 //Your Domain name with URL path or IP address with path
-String serverName = "http://192.168.167.26:1880/postData"; 
+String serverName = "http://192.168.129.26:1880/postData"; 
 
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RST);

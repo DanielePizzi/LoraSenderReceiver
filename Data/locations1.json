@@ -1,0 +1,2184 @@
+[{
+  "_id": {
+    "$oid": "6379f58050f9868ca0fa5747"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:3",
+  "lat": 42.211724,
+  "long": 13.45209933,
+  "satellites": 14,
+  "meters": 1534.7,
+  "hdop": 0.8,
+  "packetCount": 154,
+  "rssi": "-107",
+  "snr": "-1.50",
+  "pfe": "1635.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 121.22878745280337
+},{
+  "_id": {
+    "$oid": "6379f58250f9868ca0fa5748"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:7",
+  "lat": 42.21172317,
+  "long": 13.45209983,
+  "satellites": 14,
+  "meters": 1534.7,
+  "hdop": 0.8,
+  "packetCount": 155,
+  "rssi": "-107",
+  "snr": "-0.75",
+  "pfe": "1669.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": {
+    "$numberDouble": "NaN"
+  }
+},{
+  "_id": {
+    "$oid": "6379f58350f9868ca0fa5749"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:7",
+  "lat": 42.21172317,
+  "long": 13.45209983,
+  "satellites": 14,
+  "meters": 1534.7,
+  "hdop": 0.8,
+  "packetCount": 156,
+  "rssi": "-106",
+  "snr": "-0.75",
+  "pfe": "1635.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": {
+    "$numberDouble": "NaN"
+  }
+},{
+  "_id": {
+    "$oid": "6379f58750f9868ca0fa574a"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:11",
+  "lat": 42.2117225,
+  "long": 13.45210033,
+  "satellites": 14,
+  "meters": 1534.5,
+  "hdop": 0.8,
+  "packetCount": 158,
+  "rssi": "-106",
+  "snr": "-0.50",
+  "pfe": "1619.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": {
+    "$numberDouble": "NaN"
+  }
+},{
+  "_id": {
+    "$oid": "6379f58a50f9868ca0fa574b"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:14",
+  "lat": 42.21172183,
+  "long": 13.45210083,
+  "satellites": 14,
+  "meters": 1534.4,
+  "hdop": 0.8,
+  "packetCount": 160,
+  "rssi": "-100",
+  "snr": "7.25",
+  "pfe": "1635.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 119.5611594197893
+},{
+  "_id": {
+    "$oid": "6379f58b50f9868ca0fa574c"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:17",
+  "lat": 42.21171267,
+  "long": 13.45211467,
+  "satellites": 14,
+  "meters": 1532.2,
+  "hdop": 0.8,
+  "packetCount": 161,
+  "rssi": "-107",
+  "snr": "-1.75",
+  "pfe": "1635.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 122.32023214705406
+},{
+  "_id": {
+    "$oid": "6379f58d50f9868ca0fa574d"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:17",
+  "lat": 42.21171267,
+  "long": 13.45211467,
+  "satellites": 14,
+  "meters": 1532.2,
+  "hdop": 0.8,
+  "packetCount": 162,
+  "rssi": "-95",
+  "snr": "8.50",
+  "pfe": "1619.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 114.48304679574555
+},{
+  "_id": {
+    "$oid": "6379f58d50f9868ca0fa574e"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:20",
+  "lat": 42.2116825,
+  "long": 13.45211133,
+  "satellites": 14,
+  "meters": 1531,
+  "hdop": 0.8,
+  "packetCount": 163,
+  "rssi": "-97",
+  "snr": "8.00",
+  "pfe": "1635.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 116.51152522447381
+},{
+  "_id": {
+    "$oid": "6379f59050f9868ca0fa574f"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:21",
+  "lat": 42.21166783,
+  "long": 13.45210667,
+  "satellites": 14,
+  "meters": 1531,
+  "hdop": 0.8,
+  "packetCount": 164,
+  "rssi": "-102",
+  "snr": "5.50",
+  "pfe": "1635.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 121.72550667148612
+},{
+  "_id": {
+    "$oid": "6379f59150f9868ca0fa5750"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:21",
+  "lat": 42.21166783,
+  "long": 13.45210667,
+  "satellites": 14,
+  "meters": 1531,
+  "hdop": 0.8,
+  "packetCount": 165,
+  "rssi": "-103",
+  "snr": "4.50",
+  "pfe": "1619.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 122.87150175718901
+},{
+  "_id": {
+    "$oid": "6379f59250f9868ca0fa5751"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:24",
+  "lat": 42.21163617,
+  "long": 13.45208633,
+  "satellites": 14,
+  "meters": 1531,
+  "hdop": 0.8,
+  "packetCount": 166,
+  "rssi": "-108",
+  "snr": "-5.00",
+  "pfe": "1551.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.03089986991944
+},{
+  "_id": {
+    "$oid": "6379f59450f9868ca0fa5752"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:24",
+  "lat": 42.21163617,
+  "long": 13.45208633,
+  "satellites": 14,
+  "meters": 1531,
+  "hdop": 0.8,
+  "packetCount": 167,
+  "rssi": "-105",
+  "snr": "1.00",
+  "pfe": "1551.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.01029995663981
+},{
+  "_id": {
+    "$oid": "6379f59750f9868ca0fa5753"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:28",
+  "lat": 42.21161717,
+  "long": 13.4520335,
+  "satellites": 14,
+  "meters": 1531.1,
+  "hdop": 0.8,
+  "packetCount": 169,
+  "rssi": "-101",
+  "snr": "6.25",
+  "pfe": "1451.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 120.64457989226918
+},{
+  "_id": {
+    "$oid": "6379f59950f9868ca0fa5754"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:31",
+  "lat": 42.21160733,
+  "long": 13.45196683,
+  "satellites": 14,
+  "meters": 1530.4,
+  "hdop": 0.8,
+  "packetCount": 170,
+  "rssi": "-109",
+  "snr": "-6.00",
+  "pfe": "1434.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.20818753952375
+},{
+  "_id": {
+    "$oid": "6379f59b50f9868ca0fa5755"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:31",
+  "lat": 42.21160733,
+  "long": 13.45196683,
+  "satellites": 14,
+  "meters": 1530.4,
+  "hdop": 0.8,
+  "packetCount": 171,
+  "rssi": "-108",
+  "snr": "-3.00",
+  "pfe": "1417.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.23908740944319
+},{
+  "_id": {
+    "$oid": "6379f59b50f9868ca0fa5756"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:34",
+  "lat": 42.21163583,
+  "long": 13.45187117,
+  "satellites": 14,
+  "meters": 1531.4,
+  "hdop": 0.8,
+  "packetCount": 172,
+  "rssi": "-106",
+  "snr": "0.00",
+  "pfe": "1417.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": {
+    "$numberDouble": "Infinity"
+  }
+},{
+  "_id": {
+    "$oid": "6379f59e50f9868ca0fa5757"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:34",
+  "lat": 42.21163583,
+  "long": 13.45187117,
+  "satellites": 14,
+  "meters": 1531.4,
+  "hdop": 0.8,
+  "packetCount": 173,
+  "rssi": "-105",
+  "snr": "2.25",
+  "pfe": "1333.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.59700842867511
+},{
+  "_id": {
+    "$oid": "6379f59f50f9868ca0fa5758"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:37",
+  "lat": 42.21167367,
+  "long": 13.45178983,
+  "satellites": 14,
+  "meters": 1533.8,
+  "hdop": 0.8,
+  "packetCount": 174,
+  "rssi": "-105",
+  "snr": "1.00",
+  "pfe": "1367.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.01029995663981
+},{
+  "_id": {
+    "$oid": "6379f5a150f9868ca0fa5759"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:38",
+  "lat": 42.21168717,
+  "long": 13.45175917,
+  "satellites": 14,
+  "meters": 1533.8,
+  "hdop": 0.8,
+  "packetCount": 175,
+  "rssi": "-106",
+  "snr": "0.25",
+  "pfe": "1367.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 131.9897000433602
+},{
+  "_id": {
+    "$oid": "6379f5a250f9868ca0fa575a"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:38",
+  "lat": 42.21168717,
+  "long": 13.45175917,
+  "satellites": 14,
+  "meters": 1533.8,
+  "hdop": 0.8,
+  "packetCount": 176,
+  "rssi": "-106",
+  "snr": "0.50",
+  "pfe": "1384.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 129.77121254719663
+},{
+  "_id": {
+    "$oid": "6379f5a450f9868ca0fa575b"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:42",
+  "lat": 42.211749,
+  "long": 13.451653,
+  "satellites": 14,
+  "meters": 1535.3,
+  "hdop": 0.8,
+  "packetCount": 177,
+  "rssi": "-107",
+  "snr": "-2.00",
+  "pfe": "1333.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 122.98970004336019
+},{
+  "_id": {
+    "$oid": "6379f5a550f9868ca0fa575c"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:42",
+  "lat": 42.211749,
+  "long": 13.451653,
+  "satellites": 14,
+  "meters": 1535.3,
+  "hdop": 0.8,
+  "packetCount": 178,
+  "rssi": "-108",
+  "snr": "-6.50",
+  "pfe": "1266.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.27449332851388
+},{
+  "_id": {
+    "$oid": "6379f5a950f9868ca0fa575d"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:48",
+  "lat": 42.21181767,
+  "long": 13.45152367,
+  "satellites": 13,
+  "meters": 1535.1,
+  "hdop": 0.9,
+  "packetCount": 181,
+  "rssi": "-109",
+  "snr": "-5.25",
+  "pfe": "1249.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.08229626644355
+},{
+  "_id": {
+    "$oid": "6379f5ac50f9868ca0fa575e"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:48",
+  "lat": 42.21181767,
+  "long": 13.45152367,
+  "satellites": 13,
+  "meters": 1535.1,
+  "hdop": 0.9,
+  "packetCount": 182,
+  "rssi": "-109",
+  "snr": "-4.75",
+  "pfe": "1216.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.97337658102852
+},{
+  "_id": {
+    "$oid": "6379f5ac50f9868ca0fa575f"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:51",
+  "lat": 42.2118525,
+  "long": 13.45144433,
+  "satellites": 14,
+  "meters": 1534.6,
+  "hdop": 0.8,
+  "packetCount": 183,
+  "rssi": "-108",
+  "snr": "-5.25",
+  "pfe": "1283.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.08229626644355
+},{
+  "_id": {
+    "$oid": "6379f5af50f9868ca0fa5760"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:51",
+  "lat": 42.2118525,
+  "long": 13.45144433,
+  "satellites": 14,
+  "meters": 1534.6,
+  "hdop": 0.8,
+  "packetCount": 184,
+  "rssi": "-109",
+  "snr": "-7.25",
+  "pfe": "1233.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.35542010773082
+},{
+  "_id": {
+    "$oid": "6379f5b050f9868ca0fa5761"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:51",
+  "lat": 42.2118525,
+  "long": 13.45144433,
+  "satellites": 14,
+  "meters": 1534.6,
+  "hdop": 0.8,
+  "packetCount": 185,
+  "rssi": "-108",
+  "snr": "-5.25",
+  "pfe": "1199.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.08229626644355
+},{
+  "_id": {
+    "$oid": "6379f5b250f9868ca0fa5762"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:55",
+  "lat": 42.21190283,
+  "long": 13.45133217,
+  "satellites": 14,
+  "meters": 1534.6,
+  "hdop": 0.8,
+  "packetCount": 186,
+  "rssi": "-109",
+  "snr": "-6.75",
+  "pfe": "1199.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.30364071858605
+},{
+  "_id": {
+    "$oid": "6379f5b450f9868ca0fa5763"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:55",
+  "lat": 42.21190283,
+  "long": 13.45133217,
+  "satellites": 14,
+  "meters": 1534.6,
+  "hdop": 0.8,
+  "packetCount": 187,
+  "rssi": "-108",
+  "snr": "-6.50",
+  "pfe": "1166.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.27449332851388
+},{
+  "_id": {
+    "$oid": "6379f5b450f9868ca0fa5764"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:38:59",
+  "lat": 42.21194517,
+  "long": 13.45122867,
+  "satellites": 14,
+  "meters": 1533.1,
+  "hdop": 0.8,
+  "packetCount": 188,
+  "rssi": "-109",
+  "snr": "-7.00",
+  "pfe": "1199.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.33053210369387
+},{
+  "_id": {
+    "$oid": "6379f5d050f9868ca0fa5765"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:26",
+  "lat": 42.21208667,
+  "long": 13.45095917,
+  "satellites": 15,
+  "meters": 1531.8,
+  "hdop": 0.8,
+  "packetCount": 206,
+  "rssi": "-108",
+  "snr": "-3.75",
+  "pfe": "1098.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.65301426102545
+},{
+  "_id": {
+    "$oid": "6379f5d350f9868ca0fa5766"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:26",
+  "lat": 42.21208667,
+  "long": 13.45095917,
+  "satellites": 15,
+  "meters": 1531.8,
+  "hdop": 0.8,
+  "packetCount": 207,
+  "rssi": "-108",
+  "snr": "-4.25",
+  "pfe": "1065.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.83494430928563
+},{
+  "_id": {
+    "$oid": "6379f5d350f9868ca0fa5767"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:30",
+  "lat": 42.21208717,
+  "long": 13.45096067,
+  "satellites": 15,
+  "meters": 1531.7,
+  "hdop": 0.8,
+  "packetCount": 208,
+  "rssi": "-109",
+  "snr": "-8.25",
+  "pfe": "1115.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.4388405802107
+},{
+  "_id": {
+    "$oid": "6379f5d650f9868ca0fa5768"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:30",
+  "lat": 42.21208717,
+  "long": 13.45096067,
+  "satellites": 15,
+  "meters": 1531.7,
+  "hdop": 0.8,
+  "packetCount": 209,
+  "rssi": "-109",
+  "snr": "-6.00",
+  "pfe": "1132.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.20818753952375
+},{
+  "_id": {
+    "$oid": "6379f5d750f9868ca0fa5769"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:33",
+  "lat": 42.21208617,
+  "long": 13.4509615,
+  "satellites": 15,
+  "meters": 1531.6,
+  "hdop": 0.8,
+  "packetCount": 210,
+  "rssi": "-108",
+  "snr": "-4.50",
+  "pfe": "1048.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.90855530574932
+},{
+  "_id": {
+    "$oid": "6379f5d850f9868ca0fa576a"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:33",
+  "lat": 42.21208617,
+  "long": 13.4509615,
+  "satellites": 15,
+  "meters": 1531.6,
+  "hdop": 0.8,
+  "packetCount": 211,
+  "rssi": "-108",
+  "snr": "-2.75",
+  "pfe": "1065.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.03705354856032
+},{
+  "_id": {
+    "$oid": "6379f5d950f9868ca0fa576b"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:36",
+  "lat": 42.2120855,
+  "long": 13.4509605,
+  "satellites": 15,
+  "meters": 1531.8,
+  "hdop": 0.8,
+  "packetCount": 212,
+  "rssi": "-108",
+  "snr": "-3.00",
+  "pfe": "998.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.23908740944319
+},{
+  "_id": {
+    "$oid": "6379f5db50f9868ca0fa576c"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:36",
+  "lat": 42.2120855,
+  "long": 13.4509605,
+  "satellites": 15,
+  "meters": 1531.8,
+  "hdop": 0.8,
+  "packetCount": 213,
+  "rssi": "-108",
+  "snr": "-3.00",
+  "pfe": "1065.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.23908740944319
+},{
+  "_id": {
+    "$oid": "6379f5dc50f9868ca0fa576d"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:39",
+  "lat": 42.2120845,
+  "long": 13.45095917,
+  "satellites": 15,
+  "meters": 1531.9,
+  "hdop": 0.8,
+  "packetCount": 214,
+  "rssi": "-109",
+  "snr": "-4.75",
+  "pfe": "1031.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.97337658102852
+},{
+  "_id": {
+    "$oid": "6379f5de50f9868ca0fa576e"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:39",
+  "lat": 42.2120845,
+  "long": 13.45095917,
+  "satellites": 15,
+  "meters": 1531.9,
+  "hdop": 0.8,
+  "packetCount": 215,
+  "rssi": "-108",
+  "snr": "-6.00",
+  "pfe": "998.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.20818753952375
+},{
+  "_id": {
+    "$oid": "6379f5e050f9868ca0fa576f"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:39",
+  "lat": 42.2120845,
+  "long": 13.45095917,
+  "satellites": 15,
+  "meters": 1531.9,
+  "hdop": 0.8,
+  "packetCount": 216,
+  "rssi": "-107",
+  "snr": "-1.50",
+  "pfe": "1082.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 121.22878745280337
+},{
+  "_id": {
+    "$oid": "6379f5e150f9868ca0fa5770"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:43",
+  "lat": 42.21208483,
+  "long": 13.45095833,
+  "satellites": 15,
+  "meters": 1531.9,
+  "hdop": 0.8,
+  "packetCount": 217,
+  "rssi": "-108",
+  "snr": "-3.50",
+  "pfe": "1065.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.53871964321762
+},{
+  "_id": {
+    "$oid": "6379f5e350f9868ca0fa5771"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:43",
+  "lat": 42.21208483,
+  "long": 13.45095833,
+  "satellites": 15,
+  "meters": 1531.9,
+  "hdop": 0.8,
+  "packetCount": 218,
+  "rssi": "-109",
+  "snr": "-7.00",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.33053210369387
+},{
+  "_id": {
+    "$oid": "6379f5e650f9868ca0fa5772"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:47",
+  "lat": 42.21210033,
+  "long": 13.450966,
+  "satellites": 15,
+  "meters": 1540.3,
+  "hdop": 0.8,
+  "packetCount": 220,
+  "rssi": "-108",
+  "snr": "-4.75",
+  "pfe": "947.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.97337658102852
+},{
+  "_id": {
+    "$oid": "6379f5e750f9868ca0fa5773"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:50",
+  "lat": 42.2120565,
+  "long": 13.450958,
+  "satellites": 14,
+  "meters": 1541.4,
+  "hdop": 0.8,
+  "packetCount": 221,
+  "rssi": "-108",
+  "snr": "-5.00",
+  "pfe": "1031.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.03089986991944
+},{
+  "_id": {
+    "$oid": "6379f5e950f9868ca0fa5774"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:50",
+  "lat": 42.2120565,
+  "long": 13.450958,
+  "satellites": 14,
+  "meters": 1541.4,
+  "hdop": 0.8,
+  "packetCount": 222,
+  "rssi": "-108",
+  "snr": "-4.75",
+  "pfe": "1048.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.97337658102852
+},{
+  "_id": {
+    "$oid": "6379f5ea50f9868ca0fa5775"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:53",
+  "lat": 42.21205417,
+  "long": 13.45095317,
+  "satellites": 14,
+  "meters": 1540.5,
+  "hdop": 0.8,
+  "packetCount": 223,
+  "rssi": "-109",
+  "snr": "-5.75",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.17025764935237
+},{
+  "_id": {
+    "$oid": "6379f5ec50f9868ca0fa5776"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:53",
+  "lat": 42.21205417,
+  "long": 13.45095317,
+  "satellites": 14,
+  "meters": 1540.5,
+  "hdop": 0.8,
+  "packetCount": 224,
+  "rssi": "-109",
+  "snr": "-5.50",
+  "pfe": "1031.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.12849824281099
+},{
+  "_id": {
+    "$oid": "6379f5ed50f9868ca0fa5777"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:56",
+  "lat": 42.21205667,
+  "long": 13.4509505,
+  "satellites": 14,
+  "meters": 1540.5,
+  "hdop": 0.8,
+  "packetCount": 225,
+  "rssi": "-108",
+  "snr": "-6.25",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.24279286061882
+},{
+  "_id": {
+    "$oid": "6379f5ef50f9868ca0fa5778"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:56",
+  "lat": 42.21205667,
+  "long": 13.4509505,
+  "satellites": 14,
+  "meters": 1540.5,
+  "hdop": 0.8,
+  "packetCount": 226,
+  "rssi": "-108",
+  "snr": "-5.25",
+  "pfe": "1065.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.08229626644355
+},{
+  "_id": {
+    "$oid": "6379f5f150f9868ca0fa5779"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:39:56",
+  "lat": 42.21205667,
+  "long": 13.4509505,
+  "satellites": 14,
+  "meters": 1540.5,
+  "hdop": 0.8,
+  "packetCount": 227,
+  "rssi": "-108",
+  "snr": "-4.00",
+  "pfe": "998.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.750612633917
+},{
+  "_id": {
+    "$oid": "6379f5f250f9868ca0fa577a"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:0",
+  "lat": 42.21205767,
+  "long": 13.450943,
+  "satellites": 14,
+  "meters": 1540.5,
+  "hdop": 0.8,
+  "packetCount": 228,
+  "rssi": "-109",
+  "snr": "-6.00",
+  "pfe": "1048.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.20818753952375
+},{
+  "_id": {
+    "$oid": "6379f5f450f9868ca0fa577b"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:0",
+  "lat": 42.21205767,
+  "long": 13.450943,
+  "satellites": 14,
+  "meters": 1540.5,
+  "hdop": 0.8,
+  "packetCount": 229,
+  "rssi": "-109",
+  "snr": "-7.50",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.37852093251155
+},{
+  "_id": {
+    "$oid": "6379f5f550f9868ca0fa577c"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:4",
+  "lat": 42.21207767,
+  "long": 13.45088533,
+  "satellites": 13,
+  "meters": 1538.4,
+  "hdop": 0.8,
+  "packetCount": 230,
+  "rssi": "-109",
+  "snr": "-6.25",
+  "pfe": "1082.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.24279286061882
+},{
+  "_id": {
+    "$oid": "6379f5f750f9868ca0fa577d"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:4",
+  "lat": 42.21207767,
+  "long": 13.45088533,
+  "satellites": 13,
+  "meters": 1538.4,
+  "hdop": 0.8,
+  "packetCount": 231,
+  "rssi": "-109",
+  "snr": "-5.50",
+  "pfe": "1065.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.12849824281099
+},{
+  "_id": {
+    "$oid": "6379f5f850f9868ca0fa577e"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:7",
+  "lat": 42.21211883,
+  "long": 13.4508175,
+  "satellites": 13,
+  "meters": 1537.9,
+  "hdop": 0.8,
+  "packetCount": 232,
+  "rssi": "-109",
+  "snr": "-6.50",
+  "pfe": "1031.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.27449332851388
+},{
+  "_id": {
+    "$oid": "6379f5fa50f9868ca0fa577f"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:7",
+  "lat": 42.21211883,
+  "long": 13.4508175,
+  "satellites": 13,
+  "meters": 1537.9,
+  "hdop": 0.8,
+  "packetCount": 233,
+  "rssi": "-108",
+  "snr": "-4.25",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.83494430928563
+},{
+  "_id": {
+    "$oid": "6379f5fc50f9868ca0fa5780"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:10",
+  "lat": 42.21215917,
+  "long": 13.45073983,
+  "satellites": 15,
+  "meters": 1537.6,
+  "hdop": 0.8,
+  "packetCount": 234,
+  "rssi": "-109",
+  "snr": "-7.50",
+  "pfe": "998.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.37852093251155
+},{
+  "_id": {
+    "$oid": "6379f5fd50f9868ca0fa5781"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:10",
+  "lat": 42.21215917,
+  "long": 13.45073983,
+  "satellites": 15,
+  "meters": 1537.6,
+  "hdop": 0.8,
+  "packetCount": 235,
+  "rssi": "-109",
+  "snr": "-6.50",
+  "pfe": "1065.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.27449332851388
+},{
+  "_id": {
+    "$oid": "6379f5ff50f9868ca0fa5782"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:13",
+  "lat": 42.21219983,
+  "long": 13.45066583,
+  "satellites": 15,
+  "meters": 1537.1,
+  "hdop": 0.8,
+  "packetCount": 236,
+  "rssi": "-109",
+  "snr": "-6.75",
+  "pfe": "1048.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.30364071858605
+},{
+  "_id": {
+    "$oid": "6379f60050f9868ca0fa5783"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:13",
+  "lat": 42.21219983,
+  "long": 13.45066583,
+  "satellites": 15,
+  "meters": 1537.1,
+  "hdop": 0.8,
+  "packetCount": 237,
+  "rssi": "-108",
+  "snr": "-5.75",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.17025764935237
+},{
+  "_id": {
+    "$oid": "6379f60250f9868ca0fa5784"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:13",
+  "lat": 42.21219983,
+  "long": 13.45066583,
+  "satellites": 15,
+  "meters": 1537.1,
+  "hdop": 0.8,
+  "packetCount": 238,
+  "rssi": "-109",
+  "snr": "-5.25",
+  "pfe": "1031.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.08229626644355
+},{
+  "_id": {
+    "$oid": "6379f60350f9868ca0fa5785"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:17",
+  "lat": 42.212245,
+  "long": 13.45056533,
+  "satellites": 15,
+  "meters": 1537.1,
+  "hdop": 0.8,
+  "packetCount": 239,
+  "rssi": "-108",
+  "snr": "-4.00",
+  "pfe": "1031.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.750612633917
+},{
+  "_id": {
+    "$oid": "6379f60550f9868ca0fa5786"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:17",
+  "lat": 42.212245,
+  "long": 13.45056533,
+  "satellites": 15,
+  "meters": 1537.1,
+  "hdop": 0.8,
+  "packetCount": 240,
+  "rssi": "-108",
+  "snr": "-4.50",
+  "pfe": "1048.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.90855530574932
+},{
+  "_id": {
+    "$oid": "6379f60650f9868ca0fa5787"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:21",
+  "lat": 42.2122925,
+  "long": 13.45046883,
+  "satellites": 16,
+  "meters": 1537.3,
+  "hdop": 0.8,
+  "packetCount": 241,
+  "rssi": "-108",
+  "snr": "-4.75",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.97337658102852
+},{
+  "_id": {
+    "$oid": "6379f60850f9868ca0fa5788"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:21",
+  "lat": 42.2122925,
+  "long": 13.45046883,
+  "satellites": 16,
+  "meters": 1537.3,
+  "hdop": 0.8,
+  "packetCount": 242,
+  "rssi": "-109",
+  "snr": "-5.00",
+  "pfe": "1031.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.03089986991944
+},{
+  "_id": {
+    "$oid": "6379f60a50f9868ca0fa5789"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:24",
+  "lat": 42.2123365,
+  "long": 13.45039283,
+  "satellites": 16,
+  "meters": 1536.7,
+  "hdop": 0.8,
+  "packetCount": 243,
+  "rssi": "-109",
+  "snr": "-6.00",
+  "pfe": "947.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.20818753952375
+},{
+  "_id": {
+    "$oid": "6379f60b50f9868ca0fa578a"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:24",
+  "lat": 42.2123365,
+  "long": 13.45039283,
+  "satellites": 16,
+  "meters": 1536.7,
+  "hdop": 0.8,
+  "packetCount": 244,
+  "rssi": "-109",
+  "snr": "-6.75",
+  "pfe": "1015.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.30364071858605
+},{
+  "_id": {
+    "$oid": "6379f60d50f9868ca0fa578b"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:27",
+  "lat": 42.21238683,
+  "long": 13.45032583,
+  "satellites": 16,
+  "meters": 1536.2,
+  "hdop": 0.8,
+  "packetCount": 245,
+  "rssi": "-109",
+  "snr": "-7.25",
+  "pfe": "964.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.35542010773082
+},{
+  "_id": {
+    "$oid": "6379f60e50f9868ca0fa578c"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:27",
+  "lat": 42.21238683,
+  "long": 13.45032583,
+  "satellites": 16,
+  "meters": 1536.2,
+  "hdop": 0.8,
+  "packetCount": 246,
+  "rssi": "-108",
+  "snr": "-5.00",
+  "pfe": "947.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.03089986991944
+},{
+  "_id": {
+    "$oid": "6379f61050f9868ca0fa578d"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:27",
+  "lat": 42.21238683,
+  "long": 13.45032583,
+  "satellites": 16,
+  "meters": 1536.2,
+  "hdop": 0.8,
+  "packetCount": 247,
+  "rssi": "-109",
+  "snr": "-5.25",
+  "pfe": "897.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.08229626644355
+},{
+  "_id": {
+    "$oid": "6379f61150f9868ca0fa578e"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:31",
+  "lat": 42.21245133,
+  "long": 13.45022833,
+  "satellites": 16,
+  "meters": 1536.2,
+  "hdop": 0.8,
+  "packetCount": 248,
+  "rssi": "-109",
+  "snr": "-6.25",
+  "pfe": "947.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.24279286061882
+},{
+  "_id": {
+    "$oid": "6379f61350f9868ca0fa578f"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:31",
+  "lat": 42.21245133,
+  "long": 13.45022833,
+  "satellites": 16,
+  "meters": 1536.2,
+  "hdop": 0.8,
+  "packetCount": 249,
+  "rssi": "-109",
+  "snr": "-5.50",
+  "pfe": "931.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.12849824281099
+},{
+  "_id": {
+    "$oid": "6379f61450f9868ca0fa5790"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:34",
+  "lat": 42.21249967,
+  "long": 13.45015917,
+  "satellites": 16,
+  "meters": 1536.2,
+  "hdop": 0.8,
+  "packetCount": 250,
+  "rssi": "-109",
+  "snr": "-7.00",
+  "pfe": "914.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.33053210369387
+},{
+  "_id": {
+    "$oid": "6379f61650f9868ca0fa5791"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:34",
+  "lat": 42.21249967,
+  "long": 13.45015917,
+  "satellites": 16,
+  "meters": 1536.2,
+  "hdop": 0.8,
+  "packetCount": 251,
+  "rssi": "-109",
+  "snr": "-6.25",
+  "pfe": "981.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.24279286061882
+},{
+  "_id": {
+    "$oid": "6379f61850f9868ca0fa5792"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:38",
+  "lat": 42.212564,
+  "long": 13.4500635,
+  "satellites": 16,
+  "meters": 1535.9,
+  "hdop": 0.8,
+  "packetCount": 252,
+  "rssi": "-109",
+  "snr": "-6.75",
+  "pfe": "897.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.30364071858605
+},{
+  "_id": {
+    "$oid": "6379f61950f9868ca0fa5793"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:38",
+  "lat": 42.212564,
+  "long": 13.4500635,
+  "satellites": 16,
+  "meters": 1535.9,
+  "hdop": 0.8,
+  "packetCount": 253,
+  "rssi": "-108",
+  "snr": "-7.50",
+  "pfe": "914.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.37852093251155
+},{
+  "_id": {
+    "$oid": "6379f61b50f9868ca0fa5794"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:41",
+  "lat": 42.21260767,
+  "long": 13.44999033,
+  "satellites": 16,
+  "meters": 1536.9,
+  "hdop": 0.8,
+  "packetCount": 254,
+  "rssi": "-108",
+  "snr": "-4.00",
+  "pfe": "914.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.750612633917
+},{
+  "_id": {
+    "$oid": "6379f61c50f9868ca0fa5795"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:41",
+  "lat": 42.21260767,
+  "long": 13.44999033,
+  "satellites": 16,
+  "meters": 1536.9,
+  "hdop": 0.8,
+  "packetCount": 255,
+  "rssi": "-108",
+  "snr": "-4.25",
+  "pfe": "931.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 125.83494430928563
+},{
+  "_id": {
+    "$oid": "6379f61e50f9868ca0fa5796"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:44",
+  "lat": 42.21265733,
+  "long": 13.4499265,
+  "satellites": 16,
+  "meters": 1538.2,
+  "hdop": 0.8,
+  "packetCount": 256,
+  "rssi": "-108",
+  "snr": "-6.00",
+  "pfe": "880.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.20818753952375
+},{
+  "_id": {
+    "$oid": "6379f61f50f9868ca0fa5797"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:44",
+  "lat": 42.21265733,
+  "long": 13.4499265,
+  "satellites": 16,
+  "meters": 1538.2,
+  "hdop": 0.8,
+  "packetCount": 257,
+  "rssi": "-109",
+  "snr": "-8.00",
+  "pfe": "880.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.42008053022313
+},{
+  "_id": {
+    "$oid": "6379f62150f9868ca0fa5798"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:44",
+  "lat": 42.21265733,
+  "long": 13.4499265,
+  "satellites": 16,
+  "meters": 1538.2,
+  "hdop": 0.8,
+  "packetCount": 258,
+  "rssi": "-109",
+  "snr": "-8.00",
+  "pfe": "914.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.42008053022313
+},{
+  "_id": {
+    "$oid": "6379f62450f9868ca0fa5799"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:48",
+  "lat": 42.21272917,
+  "long": 13.44983883,
+  "satellites": 16,
+  "meters": 1538.2,
+  "hdop": 0.8,
+  "packetCount": 260,
+  "rssi": "-109",
+  "snr": "-5.75",
+  "pfe": "780.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.17025764935237
+},{
+  "_id": {
+    "$oid": "6379f62650f9868ca0fa579a"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:52",
+  "lat": 42.21279617,
+  "long": 13.44976233,
+  "satellites": 16,
+  "meters": 1539.7,
+  "hdop": 0.8,
+  "packetCount": 261,
+  "rssi": "-109",
+  "snr": "-8.25",
+  "pfe": "847.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.4388405802107
+},{
+  "_id": {
+    "$oid": "6379f62950f9868ca0fa579b"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:55",
+  "lat": 42.21284683,
+  "long": 13.44970367,
+  "satellites": 16,
+  "meters": 1540,
+  "hdop": 0.8,
+  "packetCount": 263,
+  "rssi": "-109",
+  "snr": "-4.50",
+  "pfe": "763.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 126.90855530574932
+},{
+  "_id": {
+    "$oid": "6379f62d50f9868ca0fa579c"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:40:58",
+  "lat": 42.21289267,
+  "long": 13.44964,
+  "satellites": 16,
+  "meters": 1539.9,
+  "hdop": 0.8,
+  "packetCount": 266,
+  "rssi": "-109",
+  "snr": "-7.00",
+  "pfe": "746.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.33053210369387
+},{
+  "_id": {
+    "$oid": "6379f62e50f9868ca0fa579d"
+  },
+  "helpRequest": 0,
+  "groupID": "12345",
+  "timestamp": "9:41:1",
+  "lat": 42.21293617,
+  "long": 13.449584,
+  "satellites": 16,
+  "meters": 1538.9,
+  "hdop": 0.8,
+  "packetCount": 267,
+  "rssi": "-109",
+  "snr": "-7.75",
+  "pfe": "763.00",
+  "radioConfiguration": {
+    "txPower": 14,
+    "spreadingFactor": 7,
+    "frequency": 866000000,
+    "signalBandwith": 125,
+    "codingRateDenominator": 0.8,
+    "preableLength": 8
+  },
+  "pathloss": 127.40002070324715
+}]
