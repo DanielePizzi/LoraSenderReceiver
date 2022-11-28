@@ -1,4 +1,4 @@
-# LoraSenderReceiver
+# Lora Sender and Receiver
 
 * Node tracker tracker is a **LoRa SX1262**, with a **GPS AIR530 module**
 * gateway,is a **ESP32 board**, with **LoRa SX1276** and **WIFI Module**
