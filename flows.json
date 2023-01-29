@@ -1,0 +1,102 @@
+[
+    {
+        "id": "a9f3f906ed37593c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a94d191929b9a9a4",
+        "type": "http in",
+        "z": "a9f3f906ed37593c",
+        "name": "postData",
+        "url": "/postData",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "73cd9d12bf6dd697",
+                "6e45954d45c19ff7"
+            ]
+        ]
+    },
+    {
+        "id": "35b3e6b73b771e57",
+        "type": "http response",
+        "z": "a9f3f906ed37593c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 510,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "73cd9d12bf6dd697",
+        "type": "template",
+        "z": "a9f3f906ed37593c",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "OK",
+        "output": "str",
+        "x": 340,
+        "y": 180,
+        "wires": [
+            [
+                "35b3e6b73b771e57"
+            ]
+        ]
+    },
+    {
+        "id": "78b9935ccd07e3b3",
+        "type": "mongodb out",
+        "z": "a9f3f906ed37593c",
+        "mongodb": "3d22bdd4d6846101",
+        "name": "",
+        "collection": "locations",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 610,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6e45954d45c19ff7",
+        "type": "function",
+        "z": "a9f3f906ed37593c",
+        "name": "function 1",
+        "func": "msg.payload.rssi = msg.req.query.rssi;\nmsg.payload.snr = msg.req.query.snr;\nmsg.payload.pfe = msg.req.query.pfe;\nmsg.payload.radioConfiguration = {\n    txPower: 14,\n    spreadingFactor: 7,\n    frequency: 866000000,\n    signalBandwith: 125,\n    codingRateDenominator: 4/5,\n    preableLength: 8,\n}\nfunction packetLoss(rssi,snr) {\n    const PTx = 14;\n    const GTx = 2.5;\n    const GRx = 2.5;\n    let snrFloated = parseFloat(snr);\n    let rssiFloated = parseFloat(rssi);\n    return PTx + GTx + GRx + 10 * Math.log10(1 + (1 / snrFloated)) - rssiFloated;\n}\nmsg.payload.pathloss = packetLoss(msg.payload.rssi, msg.payload.snr);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "78b9935ccd07e3b3"
+            ]
+        ]
+    },
+    {
+        "id": "3d22bdd4d6846101",
+        "type": "mongodb",
+        "hostname": "127.0.0.1",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": "27017",
+        "db": "local",
+        "name": ""
+    }
+]
